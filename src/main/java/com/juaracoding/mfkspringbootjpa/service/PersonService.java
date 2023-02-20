@@ -27,7 +27,7 @@ import org.springframework.data.domain.Sort;
 @Transactional
 public class PersonService  {
 
-    private PersonRepo personRepo;
+    public PersonRepo personRepo;
 
 
     @Autowired

@@ -60,7 +60,7 @@ public class CategoryProductController {
         this.categoryProductService = categoryProductService;
     }
 
-    @PostMapping("/v1/s")
+    @PostMapping("/v1/save")
     public ResponseEntity<Object> saveCategory(@Valid
                                                @RequestBody CategoryProduct categoryProduct
     ){

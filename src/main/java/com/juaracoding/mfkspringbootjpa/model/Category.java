@@ -12,7 +12,4 @@ Version 1.0
 import javax.swing.*;
 
 public class Category {
-
-
-//running ge belom mknya kmrn sblm ini eror  dah running tp blm nyangkut postman
 }

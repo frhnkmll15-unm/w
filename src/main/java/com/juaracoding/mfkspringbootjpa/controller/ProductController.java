@@ -28,12 +28,10 @@ import java.util.Map;
 public class ProductController {
 
     private ProductService productService;
-
     private String[] strExcep = new String[2];
 
     @Autowired
     private ModelMapper modelMapper;
-
     private TransformToDTO transformToDTO = new TransformToDTO();
     private Map<String,Object> objectMapper = new HashMap<String,Object>();
 
